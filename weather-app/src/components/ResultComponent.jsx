@@ -6,7 +6,7 @@ export default function ResultComponent({datiMeteo, icon}) {
     const navigate = useNavigate()
   return (
     <>
-    <Button className='ms-5' variant="primary" type='button' onClick={() => navigate('/')}><i class="bi bi-caret-left-fill"></i> HomePage</Button>
+    <Button className='ms-5' variant="primary" type='button' onClick={() => navigate('/')}><i className="bi bi-caret-left-fill"></i> HomePage</Button>
       <Container>
           <div className='d-flex justify-content-center'>
             {icon && <img alt='icon' src={icon}></img>}

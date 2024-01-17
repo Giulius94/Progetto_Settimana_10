@@ -22,7 +22,8 @@ export default function ResultPage() {
 
   }, [lon, lat])
 
-
+ 
+ 
   return (
     <>
       <ResultComponent datiMeteo={datiMeteo} icon={icon} />
